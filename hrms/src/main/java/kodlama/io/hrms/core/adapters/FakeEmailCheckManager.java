@@ -1,10 +1,8 @@
-package kodlama.io.hrms.core.utilities.validations.concretes;
+package kodlama.io.hrms.core.adapters;
 
 import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Service;
-
-import kodlama.io.hrms.core.utilities.validations.abstracts.FakeEmailCheckService;
 
 @Service
 public class FakeEmailCheckManager implements FakeEmailCheckService{

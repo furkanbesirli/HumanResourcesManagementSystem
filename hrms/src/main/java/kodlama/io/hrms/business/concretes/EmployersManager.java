@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import kodlama.io.hrms.business.abstracts.EmployersService;
+import kodlama.io.hrms.core.adapters.FakeEmailCheckService;
 import kodlama.io.hrms.core.utilities.results.DataResult;
 import kodlama.io.hrms.core.utilities.results.ErrorResult;
 import kodlama.io.hrms.core.utilities.results.Result;
@@ -13,7 +14,6 @@ import kodlama.io.hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.hrms.core.utilities.results.SuccessResult;
 import kodlama.io.hrms.core.utilities.validations.abstracts.EmailValidationService;
 import kodlama.io.hrms.core.utilities.validations.abstracts.EmployeesValidationService;
-import kodlama.io.hrms.core.utilities.validations.abstracts.FakeEmailCheckService;
 import kodlama.io.hrms.dataAccess.abstracts.EmployersDao;
 import kodlama.io.hrms.entities.concretes.Employers;
 

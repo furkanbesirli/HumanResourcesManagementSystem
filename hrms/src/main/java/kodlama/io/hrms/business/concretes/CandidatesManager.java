@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import kodlama.io.hrms.business.abstracts.CandidatesService;
+import kodlama.io.hrms.core.adapters.FakeEmailCheckService;
 import kodlama.io.hrms.core.adapters.FakeMernisCheckService;
 import kodlama.io.hrms.core.utilities.results.DataResult;
 import kodlama.io.hrms.core.utilities.results.ErrorResult;
@@ -13,7 +14,6 @@ import kodlama.io.hrms.core.utilities.results.Result;
 import kodlama.io.hrms.core.utilities.results.SuccessDataResult;
 import kodlama.io.hrms.core.utilities.results.SuccessResult;
 import kodlama.io.hrms.core.utilities.validations.abstracts.EmailValidationService;
-import kodlama.io.hrms.core.utilities.validations.abstracts.FakeEmailCheckService;
 import kodlama.io.hrms.dataAccess.abstracts.CandidatesDao;
 import kodlama.io.hrms.entities.concretes.Candidates;
 

@@ -1,4 +1,4 @@
-package kodlama.io.hrms.core.utilities.validations.abstracts;
+package kodlama.io.hrms.core.adapters;
 
 public interface FakeEmailCheckService {
 	

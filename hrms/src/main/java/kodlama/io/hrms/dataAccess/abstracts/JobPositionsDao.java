@@ -6,6 +6,6 @@ import kodlama.io.hrms.entities.concretes.JobPositions;
 
 public interface JobPositionsDao extends JpaRepository<JobPositions, Integer>{
 	
-	
+	JobPositions findByPositionNameEquals(String positionName);
 	
 }

@@ -12,4 +12,5 @@ public interface JobPositionsService {
 	
 	Result add(JobPositions jobPositions);
 	
+	
 }
